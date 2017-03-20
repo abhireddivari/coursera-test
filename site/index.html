@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coursera test</title>
+	<style>
+		h1 {
+			color: blue;
+		}
+		p, h1{
+			font-weight: bold;
+		}
+		article > p {
+			color: red;
+		}
+		p.big{
+			font-size: 30px;
+		}
+		article > input{
+			background-color: green;
+			color: white;
+			width: 100px;
+			height: 40px;
+			border: 2px solid green;
+			border-radius: 5px;
+		}
+		article > input:hover {
+			background-color: blue;
+			border: 2px solid blue;
+		}
+		header li {
+			list-style: none;
+		}
+		a:link, a:visited {
+			text-decoration: none;
+			background-color: green;
+			color: white;
+			width: 200px;
+			height: ;
+			text-align: center;
+			border: 1px solid blue;
+			border-radius: 2px;
+			display: block;
+			margin-top: 1px;
+		}
+		a:hover, a:active {
+			background-color: blue;
+
+		}
+		header li:nth-child(3):hover {
+			font-size: 20px;
+			color: blue;
+			cursor: pointer;
+		}
+		.page {
+			list-style: none;
+			width: 200px;
+			background-color: blue;
+			color: white;
+			text-align: center;
+			margin-left: 20px;
+			padding: 10px; 
+			display: inline-block;
+		}
+		.page:hover{
+			cursor: pointer;
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<ul>
+			<li><a href="https://www.rvngo.com" target="_blank">Home</a></li>
+			<li><a href="https://www.w3schools.com/angular/default.asp" target="_blank">AngularJS Course</a></li>
+			<li><a href="https://www.facebook.com/RVnGOcom/" target="_blank">Facebook Fan Page</a></li>
+		</ul>
+	</header>
+	<h1>Hello Coursera!!</h1>
+
+	<h2>Hello</h2>
+	<ul class="page" id="your_profile" onclick="profile()"><li>Your Profile</li></ul>
+	<div style="display: none;" id="page1">
+		<input type="text" name="name" value="Your Full Name">
+		<input type="text" name="name" value="Your Full Name">
+		<input type="text" name="name" value="Your Full Name">
+		<input type="text" name="name" value="Your Full Name">
+		<input type="text" name="name" value="Your Full Name">
+		<input type="text" name="name" value="Your Full Name">
+	</div>
+	<ul class="page" id="payment_settings" onclick="payment()"><li>Payment Settings</li></ul>
+	<div style="display: none;" id="page2">
+		<input type="text" name="name" value="Your Full Name">
+		<input type="text" name="name" value="Your Full Name">
+		<input type="text" name="name" value="Your Full Name">
+		<input type="text" name="name" value="Your Full Name">
+		<input type="text" name="name" value="Your Full Name">
+		<input type="text" name="name" value="Your Full Name">
+	</div>
+	
+	<ul style="background-color: #dcdcdc; padding: 50px; border-radius: 10px;">
+		<li>Milk</li>
+		<li>Donuts</li>
+		<li>Cookies
+			<ul>
+				<li>Chocolate</li>
+				<li>Sugar</li>
+				<li>Peanut Butter </li>
+			</ul>
+		</li>
+		<li>Pepto Bismol</li>
+	</ul>
+	<article>
+		<p class="big">This is Mohan Krishna's Website</p>
+		<div><p>Created on 02/22/2017</p></div>
+		<input type="button" name="Click Me" value="Click Me">
+	</article>
+<<<<<<< HEAD
+	<script>
+		function profile(){
+			document.getElementById("page1").style.display = block;
+		}
+		function payment(){
+			document.getElementById("page2").style.display = inline;
+		}
+	</script>
+=======
+>>>>>>> 73cbbfe95c19c775e08cc8e4f0f8b45402b0cfdd
+</body>
+</html>
